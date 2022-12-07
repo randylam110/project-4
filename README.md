@@ -59,7 +59,7 @@ ____________________________________________________
    - ### This classifier is used by combining the two features of *Low and Medium* into one and label it to 0 to a get a binary classification data in order to compute and plot the ROC Curve (AUC) for the KNN model.
 
 ## HTML to GitHub
- 1. Host on GitHub: [https://randylam110.github.io/project-4/](https://randylam110.github.io/project-4/)
+ 1. Host on GitHub Pages: [https://randylam110.github.io/project-4/](https://randylam110.github.io/project-4/)
 
  2. HTML Files
         a. Home Page (index.html)
