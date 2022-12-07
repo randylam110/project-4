@@ -1,6 +1,6 @@
 ## **Group 2**
 
-## _Contributors: Lief Herzfeld, Mai Yang, Randy Lam, Thomas Lenzmeier_
+## _Contributors: Randy Lam, Lief Herzfeld, Mai Yang, Thomas Lenzmeier_
 
 ____________________________________________________
 
