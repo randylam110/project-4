@@ -11,7 +11,7 @@ ____________________________________________________
 # **Overview**
 - ### Our group used the *cancer patient data sets.csv* (the link is provided below), to perform a Research Track and as a result show all of the attributes that lead to lung cancer which we would nornamlly not think of. For example, in most cases the leading cause is notably known to be smoking. However, there are a few of other attributes that cause lung cancer according to our the data. 
 
-- ### our group will present the results of our research analysis in a website, showing some data and visualization to support our findings.
+- ### Our group will present the results of our research analysis in a website, showing some data and visualization to support our findings.
 
 
 Links: 
