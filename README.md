@@ -17,10 +17,6 @@ ____________________________________________________
 Links: 
 
 - Data: https://www.kaggle.com/datasets/thedevastator/cancer-patients-and-air-pollution-a-new-link
-
-- ### GitHub Link: [lung-cancer-prediction]
-(https://github.com/herzf012/lung-cancer-prediction)
-
 ____________________________________________________
 
 # **Instructions**
