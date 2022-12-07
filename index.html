@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lung Cancer Prediction</title>
+
+    <!-- Set the viewport the way Bootstrap likes it -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bring in the Bootstrap stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <!-- Bring in our own stylesheet, AFTER Bootstrap  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body">
+    <nav class="navbar navbar-expand-sm bg-primary">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="methodology.html">Methodology</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="analysis.html">Analysis</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="conclusion.html">Conclusion</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-bg">
+      <br>
+      <div class="container">
+        <div class="jumbotron">
+          <h1 class="display-4">Lung Cancer Prediction</h1>
+          <p class="lead">
+            Comparing KNN, SVM, Random Forest Classification, and Neural Network models in their effectiveness in predicting lung cancer.
+          </p>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="about">
+          <h1 class="display-6">About</h1>
+          <p>
+            The focus of this project was to implement and compare four types of machine learning algorithms
+            on a Lung Cancer Prediction dataset to determine which factors have the most influence on the 
+            severity of risk in getting lung cancer and how well they perform in classifying the risk level
+            of lung cancer. The algoirthms we used were K-Nearest-Neighbors, Support Vector Machine, Random
+            Forest Classifier, and a Neural Network. In addition to these we also use Agglomerative Clustering
+            to see if we could also find clusters in our data that resemble our risk level of lung cancer.
+            The <a href="https://www.kaggle.com/datasets/thedevastator/cancer-patients-and-air-pollution-a-new-link" target="_blank">dataset</a>
+            we used is from Kaggel and consists of 1000 rows, an index column, a patient id column, 23 lung
+            cancer risk factors, and a lung cancer risk column.
+          </p>
+        </div>
+      </div>
+
+      <div class="container">
+        <h3 class=" display-6 text-center">Contributers</h3>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="thumbnail">
+              <img src="images/lief.jpg" alt="..." class="img-thumbnail">
+            </div>
+            <div class="caption">
+              <h3 class="contributer-name">Lief Herzfeld</h3>
+              <p class="contributer-email">Email: <a class="email-link" href="mailto:liefherzfeld@gmail.com">liefherzfeld@gmail.com</a></p>
+              <p class="contributer-linkedin">LinkedIn: <a class="linkedin-link" href="https://www.linkedin.com/in/lief-herzfeld/" target="_blank">https://www.linkedin.com/in/lief-herzfeld/</a></p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="thumbnail">
+              <img src="images/randy.jpg" alt="..." class="img-thumbnail">
+            </div>
+            <div class="caption">
+              <h3 class="contributer-name">Randy Lam</h3>
+              <p class="contributer-email">Email: <a class="email-link" href="mailto:randy.lam110@gmail.com">randy.lam110@gmail.com</a></p>
+              <p class="contributer-linkedin">LinkedIn: <a class="linkedin-link" href="https://www.linkedin.com/in/randy-lam/" target="_blank">https://www.linkedin.com/in/randy-lam/</a></p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="thumbnail">
+              <img src="images/tom.jpg" alt="..." class="img-thumbnail">
+            </div>
+            <div class="caption">
+              <h3 class="contributer-name">Thomas Lenzmeier</h3>
+              <p class="contributer-email">Email: <a class="email-link" href="mailto:tlenzmeier@gmail.com">tlenzmeier@gmail.com</a></p>
+              <p class="contributer-linkedin">LinkedIn: <a class="linkedin-link" href="https://www.linkedin.com/in/thomas-lenzmeier-0895334/" target="_blank">https://www.linkedin.com/in/thomas-lenzmeier-0895334/</a></p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="thumbnail">
+              <img src="images/mai.jpg" alt="..." class="img-thumbnail">
+            </div>
+            <div class="caption">
+              <h3 class="contributer-name">Mai Yang</h3>
+              <p class="contributer-email">Email: <a class="email-link" href="mailto:maimyang1@gmail.com">maimyang1@gmail.com</a></p>
+              <p class="contributer-linkedin">LinkedIn: <a class="linkedin-link" href="https://www.linkedin.com/in/mai-yang-362b83202" target="_blank">https://www.linkedin.com/in/mai-yang-362b83202</a></p>
+            </div>
+          </div>
+        </div>
+    </div>
+
+  <!-- Import the Bootstrap JavaScript code -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

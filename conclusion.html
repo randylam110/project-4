@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lung Cancer Prediction</title>
+
+    <!-- Set the viewport the way Bootstrap likes it -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bring in the Bootstrap stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <!-- Bring in our own stylesheet, AFTER Bootstrap  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-primary">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="methodology.html">Methodology</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="analysis.html">Analysis</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="conclusion.html">Conclusion</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-bg">
+        <br>
+        <div class="container">
+            <div class="jumbotron">
+                <h1 class="display-4">Conclusion</h1>
+                <p class="lead"> Our objective was to evaluate whether or not the dataset we chose, and the concommitant features, 
+                    were good predictors of lung cancer.<br><br>
+
+                    The results of KNN, SVM, ROC, and RFF all provided strong support for identifying the most relevant features for assessing the likelihood 
+                    of lung cancer. Particularly telling, was the RFF which surprisingly identified wheezing as the dominant feature. We initially thought that other 
+                    features, such as couging of blood or smoking, might have been the dominant one(s).<br><br>
+
+                    KNN/ROC peaked at 100% and didn't start to tail off until k reached 13 and higher. Interestingly, the ROC-AUC score was 97%.<br><br>
+                    Depending on the feature input, SVM produced similar results; a high correlation -- greater than 90% -- for one feature vs another. The examples we
+                    used were dry cough and fatigue.<br><br>
+                    The RFF produced results that one might normally expect: coughing of blood, wheezing, smoking, and passive smoking.
+                    The training and test scores were similar: 91%/90% respectively.<br><br>
+                    The neural network performed well. In one scenario, the network only needed 40 epochs to reach 97%. <br><br>
+                    We also created an unsupervised model using agglomerative clustering. The training vs validation loss and the training vs accuracy graphs both show
+                    similar trends. Both trended towards 100% while plateauing around 20 epochs.<br><br>
+
+
+
+                    <!-- K-Nearest Neighbors, Support Vector Machine, Random Forest Classifier, and Neural Network.</p> -->
+            </div>
+        </div>
+  
+        <!-- <div class="container">
+            <div class="about">
+                <h1 class="display-6">About</h1>
+                <p>
+                    KNN - We found that KNN works exceptionally well due to the amount of categories that could be pulled to compare with. With the categories having patients at different stages of symptoms it allowed KNN to mix and match to more accurately predict whether or not someone would have lung cancer.
+                    For this type of dataset KNN can be a recommended model to use as it can pull multiple samples from all categories.
+                </p>
+                
+                    <p>
+                     SVM - We found that while SVM is accurate the data that can be compared is severely limited in comparison to the other methods. Due to this while SVM can be used it is best when comparing only 2 categories with a large sample size.
+                    </p>
+                
+                    <p>
+                    Random Forest Classifier -
+                    </p>    
+                    
+                    <p>
+                    Neural Network - 
+                    </p>
+            </div>
+        </div> -->
+    </div>
+
+  <!-- Import the Bootstrap JavaScript code -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
