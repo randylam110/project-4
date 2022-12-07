@@ -57,11 +57,6 @@ ____________________________________________________
  
  4. The ROC (Receiver Operating Characteristics) Curves
    - ### This classifier is used by combining the two features of *Low and Medium* into one and label it to 0 to a get a binary classification data in order to compute and plot the ROC Curve (AUC) for the KNN model.
- 
- 
- ## Part 4: Clustering for Unsupervised Machine Learning
-  - ### 
-
 
 ## HTML to GitHub
  1. Host on GitHub: [https://herzf012.github.io/lung-cancer-prediction/](https://herzf012.github.io/lung-cancer-prediction/)
